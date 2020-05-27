@@ -1,1 +1,1 @@
-# game-programming-patterns
+# Game Programming Patterns
