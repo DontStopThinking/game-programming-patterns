@@ -6,41 +6,41 @@
 class DoNothingCommand : public Command
 {
 public:
-    virtual void execute() { /* do nothing */ }
+    virtual void execute() override { /* do nothing */ }
 };
 
 class JumpCommand : public Command
 {
 public:
-    virtual void execute() { jump(); }
+    virtual void execute() override { jump(); }
 };
 
 class FireGunCommand : public Command
 {
 public:
-    virtual void execute() { fireGun(); }
+    virtual void execute() override { fireGun(); }
 };
 
 class MoveLeftCommand : public Command
 {
 public:
-    virtual void execute() { moveLeft(); }
+    virtual void execute() override { moveLeft(); }
 };
 
 class MoveRightCommand : public Command
 {
 public:
-    virtual void execute() { moveRight(); }
+    virtual void execute() override { moveRight(); }
 };
 
 class MoveUpCommand : public Command
 {
 public:
-    virtual void execute() { moveUp(); }
+    virtual void execute() override { moveUp(); }
 };
 
 class MoveDownCommand : public Command
 {
 public:
-    virtual void execute() { moveDown(); }
+    virtual void execute() override { moveDown(); }
 };

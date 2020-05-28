@@ -1,4 +1,4 @@
 FILES := $(wildcard *.cpp)
 
 test:
-	g++ $(FILES) -o command_main.exe
+	g++ $(FILES) -o command_main.exe -Wall -Wextra

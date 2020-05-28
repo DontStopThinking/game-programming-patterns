@@ -7,7 +7,6 @@ int main()
     std::cout << "<ESC to exit>\n";
 
     bool running = true;
-    int key = 0;
 
     InputHandler inputHandler;
 
