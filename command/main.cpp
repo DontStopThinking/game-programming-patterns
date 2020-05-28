@@ -4,7 +4,10 @@
 
 int main()
 {
-    std::cout << "<ESC to exit>\n";
+    std::cout << "<esc: exit\n"
+              << "arrow keys: move\n"
+              << "space: jump\n"
+              << "x: fire weapon>\n";
 
     bool running = true;
 
