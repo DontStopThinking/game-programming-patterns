@@ -50,18 +50,15 @@ void InputHandler::handleInput()
         {
             buttonLeftArrow->execute();
         }
-
-        if (key == KEY_RIGHT)   // right arrow
+        else if (key == KEY_RIGHT)   // right arrow
         {
             buttonRightArrow->execute();
         }
-
-        if (key == KEY_UP)  // up arrow
+        else if (key == KEY_UP)  // up arrow
         {
             buttonUpArrow->execute();
         }
-
-        if (key == KEY_DOWN)    // down arrow
+        else if (key == KEY_DOWN)    // down arrow
         {
             buttonDownArrow->execute();
         }
